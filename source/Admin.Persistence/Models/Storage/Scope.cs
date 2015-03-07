@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Thinktecture.IdentityServer.Core.Models;
 
 namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
 {
@@ -11,7 +12,7 @@ namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
         public virtual string Description { get; set; }
         public virtual bool Required { get; set; }
         public virtual bool Emphasize { get; set; }
-        public virtual int Type { get; set; }
+        public virtual ScopeType Type { get; set; }
         public virtual ICollection<ScopeClaim> ScopeClaims { get; set; }
         public virtual bool IncludeAllClaimsForUser { get; set; }
         public virtual string ClaimsRule { get; set; }
@@ -21,6 +22,7 @@ namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
         {
             // Copied from original Scope model
 
+            Type= ScopeType.Resource;
             IncludeAllClaimsForUser = false;
             Enabled = true;
             ShowInDiscoveryDocument = true;
