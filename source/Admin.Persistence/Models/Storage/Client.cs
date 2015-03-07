@@ -15,6 +15,7 @@ namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
         public virtual bool RequireConsent { get; set; }
         public virtual bool AllowRememberConsent { get; set; }
         public virtual Flows Flow { get; set; }
+        public virtual bool AllowClientCredentialsOnly { get; set; }
         public virtual ICollection<ClientRedirectUri> RedirectUris { get; set; }
         public virtual ICollection<ClientPostLogoutRedirectUri> PostLogoutRedirectUris { get; set; }
         public virtual ICollection<ClientScopeRestriction> ScopeRestrictions { get; set; }
@@ -24,6 +25,7 @@ namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
         public virtual int AbsoluteRefreshTokenLifetime { get; set; }
         public virtual int SlidingRefreshTokenLifetime { get; set; }
         public virtual TokenUsage RefreshTokenUsage { get; set; }
+        public virtual bool UpdateAccessTokenClaimsOnRefresh { get; set; }
         public virtual TokenExpiration RefreshTokenExpiration { get; set; }
         public virtual AccessTokenType AccessTokenType { get; set; }
         public virtual bool EnableLocalLogin { get; set; }
@@ -33,10 +35,13 @@ namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
         public virtual bool AlwaysSendClientClaims { get; set; }
         public virtual bool PrefixClientClaims { get; set; }
         public virtual ICollection<ClientGrantTypeRestriction> CustomGrantTypeRestrictions { get; set; }
+        public virtual ICollection<ClientCorsOrigin> AllowedCorsOrigins { get; set; }
 
         public Client()
         {
             // Copied from original Client model
+            Flow = Flows.Implicit;
+
             Enabled = true;
             EnableLocalLogin = true;
 

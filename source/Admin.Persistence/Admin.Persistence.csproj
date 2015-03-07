@@ -48,6 +48,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Storage\ClientCorsOrigin.cs" />
     <Compile Include="StorageRegistrations.cs" />
     <Compile Include="IPersistence.cs" />
     <Compile Include="Models\PageResult.cs" />
