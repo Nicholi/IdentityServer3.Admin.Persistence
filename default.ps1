@@ -58,7 +58,7 @@ task ILMerge -depends Compile {
 	Get-ChildItem -Path $output_directory -Filter *.dll |
 		foreach-object {
 			# Exclude Thinktecture.IdentityServer.Core.dll as that will be the primary assembly
-			if ("$_" -ne "Thinktecture.IdentityServer.v3.AccessTokenValidation.dll" -and 
+			if ("$_" -ne "Thinktecture.IdentityServer3.Admin.Persistence.dll" -and 
 			    "$_" -ne "Owin.dll") {
 				$input_dlls = "$input_dlls $output_directory\$_"
 			}
