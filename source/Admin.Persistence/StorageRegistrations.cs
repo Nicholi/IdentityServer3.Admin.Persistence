@@ -1,7 +1,7 @@
-﻿using Thinktecture.IdentityServer.Core.Configuration;
-using Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage;
+﻿using IdentityServer3.Admin.Persistence.Models.Storage;
+using Thinktecture.IdentityServer.Core.Configuration;
 
-namespace Thinktecture.IdentityServer3.Admin.Persistence
+namespace IdentityServer3.Admin.Persistence
 {
     public abstract class StorageRegistrations
     {

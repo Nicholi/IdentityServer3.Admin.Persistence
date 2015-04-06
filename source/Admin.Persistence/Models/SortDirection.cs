@@ -1,4 +1,4 @@
-﻿namespace Thinktecture.IdentityServer3.Admin.Persistence.Models
+﻿namespace IdentityServer3.Admin.Persistence.Models
 {
     public enum SortDirection
     {

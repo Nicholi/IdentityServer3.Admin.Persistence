@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Thinktecture.IdentityServer3.Admin.Persistence</id>
+    <id>IdentityServer3.Admin.Persistence</id>
     <version>0.0.0</version>
-    <title>Thinktecture IdentityServer3 - Admin Persistence Interface</title>
+    <title>IdentityServer3 - Admin Persistence Interface</title>
     <authors>Brock Allen, Dominick Baier, Manuel Rauber</authors>
     <owners>Brock Allen, Dominick Baier</owners>
-    <projectUrl>https://github.com/IdentityServer/Thinktecture.IdentityServer3.Admin.Persistence</projectUrl>
-    <iconUrl>http://www.thinktecture.com/images/favicon.ico</iconUrl>
+    <projectUrl>https://github.com/IdentityServer/IdentityServer3.Admin.Persistence</projectUrl>
+    <iconUrl>https://identityserver.github.io/Documentation/assets/images/icons/IDserver_icon128.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Thinktecture IdentityServer3 - Admin Persistence Interface</description>
+    <description>IdentityServer3 - Admin Persistence Interface</description>
     <copyright>Copyright 2015</copyright>
-    <tags>Thinktecture IdentityServer Identity Admin</tags>
+    <tags>IdentityServer Identity Admin</tags>
   </metadata>
 </package>

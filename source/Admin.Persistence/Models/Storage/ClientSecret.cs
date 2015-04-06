@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
+namespace IdentityServer3.Admin.Persistence.Models.Storage
 {
     public class ClientSecret
     {

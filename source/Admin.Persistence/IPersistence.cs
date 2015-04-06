@@ -1,6 +1,6 @@
-﻿using Thinktecture.IdentityServer3.Admin.Persistence.Models;
+﻿using IdentityServer3.Admin.Persistence.Models;
 
-namespace Thinktecture.IdentityServer3.Admin.Persistence
+namespace IdentityServer3.Admin.Persistence
 {
     public interface IPersistence<TEntity>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Thinktecture.IdentityServer.Core.Models;
 
-namespace Thinktecture.IdentityServer3.Admin.Persistence.Models.Storage
+namespace IdentityServer3.Admin.Persistence.Models.Storage
 {
     public class Client
     {
