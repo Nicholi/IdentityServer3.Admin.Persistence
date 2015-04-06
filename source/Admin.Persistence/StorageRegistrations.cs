@@ -1,5 +1,5 @@
 ﻿using IdentityServer3.Admin.Persistence.Models.Storage;
-using Thinktecture.IdentityServer.Core.Configuration;
+using IdentityServer3.Core.Configuration;
 
 namespace IdentityServer3.Admin.Persistence
 {
