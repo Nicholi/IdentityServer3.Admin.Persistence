@@ -182,3 +182,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 *.ncrunchsolution
+
+# IdentityServer specific
+distribution/
+source/VersionAssemblyInfo.cs

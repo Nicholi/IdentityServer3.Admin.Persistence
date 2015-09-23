@@ -12,5 +12,9 @@
     <description>IdentityServer3 - Admin Persistence Interface</description>
     <copyright>Copyright 2015</copyright>
     <tags>IdentityServer Identity Admin</tags>
+    <dependencies>
+      <dependency id="IdentityServer3" version="2.0" />
+      <dependency id="Owin" version="1.0" />
+    </dependencies>
   </metadata>
 </package>
