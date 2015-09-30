@@ -56,11 +56,11 @@
     <Compile Include="Models\SortDirection.cs" />
     <Compile Include="Models\Storage\Client.cs" />
     <Compile Include="Models\Storage\ClientClaim.cs" />
-    <Compile Include="Models\Storage\ClientGrantTypeRestriction.cs" />
+    <Compile Include="Models\Storage\ClientCustomGrantType.cs" />
     <Compile Include="Models\Storage\ClientIdPRestriction.cs" />
     <Compile Include="Models\Storage\ClientPostLogoutRedirectUri.cs" />
     <Compile Include="Models\Storage\ClientRedirectUri.cs" />
-    <Compile Include="Models\Storage\ClientScopeRestriction.cs" />
+    <Compile Include="Models\Storage\ClientScope.cs" />
     <Compile Include="Models\Storage\ClientSecret.cs" />
     <Compile Include="Models\Storage\Scope.cs" />
     <Compile Include="Models\Storage\ScopeClaim.cs" />

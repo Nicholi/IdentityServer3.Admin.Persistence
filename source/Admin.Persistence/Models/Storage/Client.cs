@@ -18,7 +18,7 @@ namespace IdentityServer3.Admin.Persistence.Models.Storage
         public virtual bool AllowClientCredentialsOnly { get; set; }
         public virtual ICollection<ClientRedirectUri> RedirectUris { get; set; }
         public virtual ICollection<ClientPostLogoutRedirectUri> PostLogoutRedirectUris { get; set; }
-        public virtual ICollection<ClientScopeRestriction> ScopeRestrictions { get; set; }
+        public virtual ICollection<ClientScope> AllowedScopes { get; set; }
         public virtual int IdentityTokenLifetime { get; set; }
         public virtual int AccessTokenLifetime { get; set; }
         public virtual int AuthorizationCodeLifetime { get; set; }
@@ -34,7 +34,7 @@ namespace IdentityServer3.Admin.Persistence.Models.Storage
         public virtual ICollection<ClientClaim> Claims { get; set; }
         public virtual bool AlwaysSendClientClaims { get; set; }
         public virtual bool PrefixClientClaims { get; set; }
-        public virtual ICollection<ClientGrantTypeRestriction> CustomGrantTypeRestrictions { get; set; }
+        public virtual ICollection<ClientCustomGrantType> AllowedCustomGrantTypes { get; set; }
         public virtual ICollection<ClientCorsOrigin> AllowedCorsOrigins { get; set; }
 
         public Client()
